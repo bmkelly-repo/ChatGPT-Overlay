@@ -1,0 +1,62 @@
+#prompt-manager-overlay {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    background-color: #1e1e1e; /* Dark background */
+    border: 1px solid #3a3a3a; /* Dark gray border */
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Darker shadow */
+    z-index: 9999;
+}
+
+#prompt-manager-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333; /* Darker header background */
+    color: #f5f5f5; /* Light text */
+    padding: 10px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #555555; /* Dark gray border */
+    background-color: #2e2e2e; /* Darker input background */
+    color: #f5f5f5; /* Light text */
+}
+
+#prompt-results {
+    background-color: #2e2e2e; /* Dark gray background for prompt results */
+    color: #f5f5f5; /* Light text color */
+    padding: 10px;
+    border: 1px solid #3a3a3a; /* Darker gray border for results */
+}
+
+#preset-prefixes {
+    margin-top: 10px;
+    background-color: #2b2b2b; /* Slightly lighter dark background */
+    padding: 10px;
+    border: 1px solid #444444; /* Dark border */
+}
+
+#prefix-select {
+    width: 100%;
+    padding: 5px;
+    background-color: #333333; /* Dark background for dropdown */
+    border: 1px solid #555555; /* Dark gray border */
+    color: #f5f5f5; /* Light text color */
+}
+
+#close-overlay {
+    background-color: #ff4c4c; /* Red background for close button */
+    color: white; /* White text */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#close-overlay:hover {
+    background-color: #d93b3b; /* Darker red on hover */
+}
